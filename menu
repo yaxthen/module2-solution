@@ -1,6 +1,40 @@
-p {
+<style>
+#flotante {
   width: 200px;
-  height: 100px;
-  box-sizing: border-box;
-  border: red 25px solid;
+  height: 160px;
+  border: 3px solid black;
+  margin: 0;
 }
+#flotante .red {
+  float: left;
+  width: 80px;
+  height: 40px;
+  border: 3px solid red;
+  margin: 0;
+}
+#flotante .blue {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border: 3px solid blue;
+  margin: 0;
+}
+#flotante .orange {
+  width: 20px;
+  height: 30px;
+  border: 3px solid orange;
+  margin: 0;
+}
+#flotante .green {
+  width: 20px;
+  height: 30px;
+  border: 3px solid green;
+  margin: 0;
+}
+</style>
+<div id="flotante">
+  <div class="red"> </div>
+  <div class="blue"> </div>
+  <div class="orange"> </div>
+  <div class="green"> </div>
+</div>
