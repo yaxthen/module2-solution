@@ -1,0 +1,6 @@
+p {
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+  border: red 25px solid;
+}
